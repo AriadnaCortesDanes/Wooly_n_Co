@@ -9,12 +9,12 @@
 body {
     font-family: 'Spectral', serif;
     line-height: 1.6;
-    margin: 20px;
+    margin: 30px;
 }
 
 /* Encabezado */
 header {
-    background: #7d7df3;
+    background: #88694D;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -25,7 +25,7 @@ nav ul {
     list-style: none;
     padding: 5px;
     text-align: center;
-    background: #9bbcf0;
+    background: #DB7D57;
     position: relative; /* Añadir posición relativa al contenedor */
 }
 
@@ -46,7 +46,7 @@ nav ul li a {
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
-    background: #7d7df3;
+    background: #88694D;
     min-width: 160px;
     z-index: 1;
     left: 0; /* Alineación al contenedor padre */
@@ -65,7 +65,8 @@ nav ul li .dropdown-content li a {
 }
 
 nav ul li .dropdown-content li a:hover {
-    background: #9bbcf0;
+    background: #E9E0CF;
+    color: #88694D;
 }
 
 /* Mostrar el dropdown cuando se pase el ratón por encima del li */
@@ -89,7 +90,7 @@ main h2 {
 
 /* Pie de página */
 footer {
-    background: #9bbcf0;
+    background: #DB7D57;
     color: #fff;
     text-align: center;
     padding: 10px 0;
