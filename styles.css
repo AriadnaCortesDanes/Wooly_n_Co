@@ -16,7 +16,7 @@ body {
 header {
     background: #88694D;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -86,6 +86,67 @@ main {
 
 main h2 {
     margin-bottom: 10px;
+}
+
+/* Contenedor de texto centrado */
+.centered-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.centered-text {
+    font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
+    color: #88694D;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.centered-text-header {
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    color: #88694D;
+}
+
+/* Estilos del contenedor de botones */
+.button-container {
+    display: flex;
+    justify-content: space-around; /* Espacia uniformemente los botones */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan a la siguiente línea si es necesario */
+    margin: 20px 0; /* Espacio alrededor del contenedor de botones */
+}
+
+/* Estilos del botón grande */
+.big-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #E9E0CF;
+    color: #88694D;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 25px;
+    width: 30%; /* Puedes ajustar el tamaño según tus necesidades */
+    margin: 20px ; /* Centrar horizontalmente */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.big-button img {
+    width: 70%; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 70%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.big-button span {
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+}
+
+.big-button:hover {
+    color:#E9E0CF;
+    background-color: #88694D; /* Color de fondo al pasar el ratón */
 }
 
 /* Pie de página */
