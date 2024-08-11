@@ -116,7 +116,6 @@ main h2 {
 .pattern-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: stretch;
     background-color: #E9E0CF;
     color: #88694D;
