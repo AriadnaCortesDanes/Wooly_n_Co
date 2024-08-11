@@ -58,3 +58,5 @@ V1. Agafar un punt <br>
 V2. 3 cad , 3 pd (en el mateix punt) <br>
 V3. Agafar punt del costat i fer un punt deslliçat (si son les mans tancar) <br>
 V4. si es la cresta repetir per tota l’esquena <br>
+
+Updated.
