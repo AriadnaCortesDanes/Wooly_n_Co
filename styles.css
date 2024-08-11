@@ -9,7 +9,10 @@
 body {
     font-family: 'Spectral', serif;
     line-height: 1.6;
-    margin: 30px;
+    margin: 20px;
+    margin-top: 10px;
+    color: #88694D;
+    height: 100%;
 }
 
 /* Encabezado */
@@ -47,7 +50,7 @@ nav ul li .dropdown-content {
     display: none;
     position: absolute;
     background: #88694D;
-    min-width: 160px;
+    min-width: 180px;
     z-index: 1;
     left: 0; /* Alineación al contenedor padre */
     top: 100%;
@@ -110,6 +113,27 @@ main h2 {
 }
 
 /* Estilos del contenedor de botones */
+.pattern-container {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #E9E0CF;
+    color: #88694D;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px ; /* Centrar horizontalmente */
+    text-align: center;
+}
+
+.pattern-container img {
+    width: 40%; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 40%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilos del contenedor de botones */
 .button-container {
     display: flex;
     justify-content: space-around; /* Espacia uniformemente los botones */
@@ -147,6 +171,55 @@ main h2 {
 .big-button:hover {
     color:#E9E0CF;
     background-color: #88694D; /* Color de fondo al pasar el ratón */
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Menú lateral */
+.sidebar {
+    width: 200px;
+    background-color: #88694D;
+    color: #fff;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: #E9E0CF;
+    padding: 5px;
+    display: block;
+    color: #88694D;
+}
+
+/* Contenido */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-pattern {
+    display: none;
+}
+
+.content-pattern.active {
+    display: block;
 }
 
 /* Pie de página */

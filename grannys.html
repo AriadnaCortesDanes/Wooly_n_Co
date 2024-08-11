@@ -29,10 +29,34 @@
     </nav>   
         
     <main>
-        <section>
-            <h2>Introducción</h2>
-            <p>Esta es mi primera página web utilizando HTML y CSS.</p>
-        </section>
+
+        <div class="container">
+            
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#" data-target="content1">Granny Square 1</a></li>
+                    <li><a href="#" data-target="content2">Granny Square 2</a></li>
+                    <li><a href="#" data-target="content3">Granny Square 3</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div id="content1" class="content-pattern">
+                    <h2>Granny Square 1</h2>
+                    <p>Este es el contenido del patrón 1.</p>
+                </div>
+                <div id="content2" class="content-pattern">
+                    <h2>Granny Square 2</h2>
+                    <p>Este es el contenido del patrón 2.</p>
+                </div>
+                <div id="content3" class="content-pattern">
+                    <h2>Granny Square 3</h2>
+                    <p>Este es el contenido del patrón 3.</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/sidebar.js"></script>
+
     </main>
     <footer>
         <p>&copy; 2024 Wooly n Co</p>
