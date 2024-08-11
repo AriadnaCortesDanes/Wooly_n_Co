@@ -123,7 +123,7 @@ main h2 {
     padding: 20px;
     border-radius: 25px;
     margin: 20px ; /* Centrar horizontalmente */
-    text-align: center;
+    text-align: left;
 }
 
 .pattern-container img {

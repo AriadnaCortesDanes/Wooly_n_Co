@@ -1,4 +1,4 @@
-<h3>CUA</h3>
+<h2>CUA</h2>
 V1. 20 cad
 V2. 20 pb
 V3. 4 pb, 1 dism
@@ -10,13 +10,13 @@ V8. 8 pb
 V9. 1 pb, 1 dism
 V10. 4 pb i tancar
 
-<h3>POTES (x2)</h3>
+<h2>POTES (x2)</h2>
 V1. 6 pb en AM
 V2. 1 pb, 1 aum
 V3. 12 pb
 V4. 1 pb, 1 aumç
 
-<h3>CAP</h3> 
+<h2>CAP</h2> 
 V1. 6pb en AM 
 V2. 6 aum 
 V3. 1pb, 1 aum 
@@ -29,7 +29,7 @@ V12. 5 pb, 5 dism, 5 pb
 V13. 15 pb 
 V14. 15 pb
 
-<h3>COS</h3>
+<h2>COS</h2>
 V15. 5 pb, 1 aum, 3 pb, 1 aum, 2 pb 1 aum, 2 pb
 V16. 2 pb, 1 aum, 4 pb, 1 aum, 1 pb, 1 aum, 6 pb, 1 aum, 1 pb
 V17.  1 pb, 1 aum, 19 pb, 1 aum
@@ -46,7 +46,7 @@ V27. (2 pb, 1 dism ) x 6
 V28. ( 1 pb, 1 dism ) x 6
 V29. 6 dism i tanquem
 
-<h3>POTETES I CRESTA</h3>
+<h2>POTETES I CRESTA</h2>
 V1. Agafar un punt
 V2. 3 cad , 3 pd (en el mateix punt)
 V3. Agafar punt del costat i fer un punt deslliçat (si son les mans tancar)
